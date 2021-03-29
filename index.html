@@ -132,7 +132,7 @@
                         </div>
                     </div>
 
-                     <!-- slider-element -->
+                    <!-- slider-element -->
 
                     <div class="our-project__element">
                         <img src="img/third-project.jpg" class="element-img">
@@ -202,24 +202,56 @@
                 <div class="center-block__right-content">
                     <div class="right-content__top">
                         <h2 class="right-content__title">Новое оборудование, предоставляемое в аренду:</h2>
-                        <div class="section-buttons">
-                            <div class="one-button">
+                        <div class="section-buttons" id="second-buttons">
+                            <div class="one-button" id="prev-button">
                                 <img src="img/arrow.png" alt="Предыдущий" class="one-button__img first-button-icon">
                             </div>
-                            <div class="one-button">
+                            <div class="one-button" id="next-button">
                                 <img src="img/arrow.png" alt="Следующий" class="one-button__img second-button-icon">
                             </div>
                         </div>
                     </div>
                     <div class="right-content__middle">
+
+                        <!-- image -->
+
                         <img src="img/rent-img.png" alt="Аренда" class="right-content__middle-img">
-                        <div class="middle-content">
+
+                        <!-- content -->
+
+                        <!-- item -->
+
+                        <div class="middle-content active">
                             <h2 class="middle-content__title">Robe Robin ParFect 100</h2>
                             <ul class="content-list">
-                                <li class="content-list__item">Источник света 12 светодиодов RGBW по 15 Вт каждый</li>
-                                <li class="content-list__item">Угол раскрытия 7°</li>
-                                <li class="content-list__item">В комплекте рассеивающая линза 40°</li>
-                                <li class="content-list__item">Потребляемая мощность 200 Вт</li>
+                                <li class="content-list__item">Источник света 34 светодиодов RGBW по 15 Вт каждый</li>
+                                <li class="content-list__item">Угол раскрытия 90°</li>
+                                <li class="content-list__item">В комплекте рассеивающая линза 50°</li>
+                                <li class="content-list__item">Потребляемая мощность 220 Вт</li>
+                            </ul>
+                        </div>
+
+                        <!-- item -->
+
+                        <div class="middle-content">
+                            <h2 class="middle-content__title">Robe Robin 120</h2>
+                            <ul class="content-list">
+                                <li class="content-list__item">Источник света 16 светодиодов RGBW по 18 Вт каждый</li>
+                                <li class="content-list__item">Угол раскрытия 75°</li>
+                                <li class="content-list__item">В комплекте рассеивающая линза 60°</li>
+                                <li class="content-list__item">Потребляемая мощность 240 Вт</li>
+                            </ul>
+                        </div>
+
+                        <!-- item -->
+
+                        <div class="middle-content">
+                            <h2 class="middle-content__title">Robe 435RF</h2>
+                            <ul class="content-list">
+                                <li class="content-list__item">Источник света 35 светодиодов RGBW по 16 Вт каждый</li>
+                                <li class="content-list__item">Угол раскрытия 72°</li>
+                                <li class="content-list__item">В комплекте рассеивающая линза 55°</li>
+                                <li class="content-list__item">Потребляемая мощность 230 Вт</li>
                             </ul>
                         </div>
                     </div>
@@ -230,9 +262,89 @@
 
     <!-- news -->
 
-    <section class="news">
-        
+    <section class="news top-margin center-section-element">
+        <div class="container">
+            <div class="first-line-div">
+                <div class="section-title">
+                    <div class="lines">
+                        <div class="first-line one-line"></div>
+                        <div class="second-line one-line"></div>
+                    </div>
+                    <h2 class="main-title">Новости</h2>
+                </div>
+                <button class="new-button">Все новости</button>
+            </div>
+            <div class="all-news-block">
+                <div class="news-first-block">
+                    <img src="img/news-1.png" alt="Новости" class="news-first-block__image">
+                    <div class="news-first-block__content">
+                        <div class="news-first-line">
+                            <h2 class="news__title">Семинар Milos</h2>
+                            <p class="news__date">27.01.2019</p>
+                        </div>
+                        <p class="news__description f-news-description">
+                            Наши сотрудники прошли последний семинар от компании Milos.
+                            Они получили новый объем знаний, который позволит нашей компании 
+                            заниматься оборудованием не только мероприятий, но производственных 
+                            помещений.
+                        </p>
+                        <a href="#" class="news__link">Читать полностью...</a>
+                    </div>
+                </div>
+                <div class="news-block">
+                    <h2 class="news__title">Выставка Prolight+Sound NAMM Russia 2016</h2>
+                    <p class="news__description indent-news-block">
+                        30 контрактов, тысячи восторженных посетителей...
+                    </p>
+                    <div class="news-block__bottom">
+                        <img src="img/news-2.png" alt="Новости" class="news-block__img">
+                        <p class="news__date">27.01.2019</p>
+                    </div>
+                </div>
+                <div class="news-block">
+                    <h2 class="news__title">Семинар Robe</h2>
+                    <p class="news__description indent-news-block">
+                        30 января 2017 года наши сотрудники побывали в Берлине..
+                    </p>
+                    <div class="news-block__bottom">
+                        <img src="img/news-3.png" alt="Новости" class="news-block__img">
+                        <p class="news__date">27.01.2019</p>
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
 
+    <!-- footer -->
+
+    <footer class="footer top-margin center-section-element"> 
+        <div class="container">
+            <div class="footer-first-line">
+                <h4 class="phone">(812) 710-80-25</h4>
+                <p class="address">191180, Санкт-Петербург, Набережная реки Фонтанки, 90, корпус 1</p>
+                <p class="mail">mail@translight.ru</p>
+            </div>
+            <div class="horizontal-line"></div>
+                <ul class="footer-list">
+                    <div class="list-group">
+                        <li class="list-item end-title">О компании</li>
+                        <li class="list-item end-title">Новости</li>
+                    </div>
+                    <div class="list-group">
+                        <li class="list-item end-title">Каталог</li>
+                        <li class="list-item end-title">Аренда</li>
+                    </div>
+                    <div class="list-group">
+                        <li class="list-item end-title">Наши проекты</li>
+                        <li class="list-item end-title">Сервисное обслуживание</li>
+                    </div>
+                </ul>
+            <div class="horizontal-line"></div>
+            <div class="footer-end-line">
+                <p class="end-title">© 2019 ЗАО «Транслайт». Все права защищены.</p>
+                <p class="end-title">Разработка и дизайн - D-e-n.ru</p>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
